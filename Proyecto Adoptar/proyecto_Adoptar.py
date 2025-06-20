@@ -134,3 +134,4 @@ class SistemaAdopcion:
             print("Todos los perros disponibles:")
             for perro in self.perros:
                 perro.mostrar_informacion()
+                print("Este perrito ha contado su historia. Ahora, otro lo hará.")

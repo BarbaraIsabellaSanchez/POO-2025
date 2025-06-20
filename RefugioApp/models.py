@@ -6,6 +6,13 @@ ESTADOS = [
     ('adoptado', 'Adoptado'),
 ]
 
+
+TAMAÑO= [
+    ('pequeño', 'Pequeño'),
+    ('mediano', 'Mediano'),
+    ('grande', 'Grande'),
+]
+
 class Perro(models.Model):
     nombre = models.CharField(max_length=100)
     raza = models.CharField(max_length=100)
